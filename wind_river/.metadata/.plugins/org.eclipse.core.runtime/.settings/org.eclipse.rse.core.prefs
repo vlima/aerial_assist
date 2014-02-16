@@ -1,5 +1,5 @@
-#Sun Feb 16 08:44:57 EST 2014
+#Sun Feb 16 09:54:10 EST 2014
 eclipse.preferences.version=1
 org.eclipse.rse.systemtype.local.systemType.defaultUserId=Ricardo
-useridperkey=Mirai.vxsim1_smp\=Ricardo;Mirai.vxsim0\=Ricardo;Mirai.Local\=Ricardo;Mirai.VxWorks6x_10.39.85.2\=Ricardo;
+useridperkey=Mirai.Local\=Ricardo;Mirai.VxWorks6x_10.39.85.2\=Ricardo;
 activeuserprofiles=Mirai;Team
