@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="23" version="2.0">
+<workbench progressCount="24" version="2.0">
 <workbenchAdvisor/>
-<window height="800" width="1500" x="64" y="24">
+<window height="800" maximized="true" width="1500" x="64" y="24">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
@@ -10,36 +10,146 @@
 <coolItem id="group.file" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="245" y="22"/>
 <coolItem id="additions" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="91" y="22"/>
-<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="53" y="22"/>
-<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="61" y="22"/>
+<coolItem id="com.windriver.analysis.windview.actionSet" itemType="typeToolBarContribution" x="61" y="22"/>
+<coolItem id="org.eclipse.cdt.dsf.debug.ui.updateModes" itemType="typeToolBarContribution" x="38" y="22"/>
+<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="175" y="22"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="99" y="22"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="38" y="22"/>
 <coolItem id="org.eclipse.wst.xml.ui.perspective.NewFileToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
-<coolItem id="com.windriver.ide.target.ui.global.targettoolbar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="com.windriver.ide.target.ui.global.targettoolbar" itemType="typeToolBarContribution" x="38" y="22"/>
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="221" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.cdt.ui.editor.CEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
-<page aggregateWorkingSetId="Aggregate for window 1392558060771" focus="true" label="Workspace - Basic Device Development">
+<page aggregateWorkingSetId="Aggregate for window 1392558060771" focus="true" label="Workspace - Device Debug">
 <editors>
 <editorArea activeWorkbook="DefaultEditorWorkbook">
 <info part="DefaultEditorWorkbook">
 <folder appearance="1" expanded="2">
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+<part id="5"/>
+<part id="6"/>
+<part id="7"/>
+<part id="8"/>
+<part id="9"/>
+<part id="10"/>
+<part id="11"/>
+<part id="12"/>
+<part id="13"/>
+<part id="14"/>
+<part id="15"/>
+<part id="16"/>
+<part id="17"/>
+<part id="18"/>
+</presentation>
 </folder>
 </info>
 </editorArea>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="MyRobot.cpp" partName="MyRobot.cpp" path="D:/software/usfirst/2014/aerial_assist/wind_river/mecanum_custom/MyRobot.cpp" title="MyRobot.cpp" tooltip="mecanum_custom/MyRobot.cpp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/mecanum_custom/MyRobot.cpp"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="497" selectionTopPixel="102"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="Drive.cpp" partName="Drive.cpp" path="D:/software/usfirst/2014/aerial_assist/wind_river/Sonic Howl/Commands/Drive.cpp" title="Drive.cpp" tooltip="Sonic Howl/Commands/Drive.cpp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Sonic Howl/Commands/Drive.cpp"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1924" selectionTopPixel="306"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="Chassis.cpp" partName="Chassis.cpp" path="D:/software/usfirst/2014/aerial_assist/wind_river/Sonic Howl/Subsystems/Chassis.cpp" title="Chassis.cpp" tooltip="Sonic Howl/Subsystems/Chassis.cpp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Sonic Howl/Subsystems/Chassis.cpp"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="506" selectionTopPixel="136"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="RobotMap.h" partName="RobotMap.h" path="D:/software/usfirst/2014/aerial_assist/wind_river/Sonic Howl/RobotMap.h" title="RobotMap.h" tooltip="Sonic Howl/RobotMap.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Sonic Howl/RobotMap.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="17" selectionOffset="943" selectionTopPixel="63"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="Drive.h" partName="Drive.h" path="D:/software/usfirst/2014/aerial_assist/wind_river/Sonic Howl/Commands/Drive.h" title="Drive.h" tooltip="Sonic Howl/Commands/Drive.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Sonic Howl/Commands/Drive.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="10" selectionOffset="929" selectionTopPixel="185"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="Chassis.h" partName="Chassis.h" path="D:/software/usfirst/2014/aerial_assist/wind_river/Sonic Howl/Subsystems/Chassis.h" title="Chassis.h" tooltip="Sonic Howl/Subsystems/Chassis.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Sonic Howl/Subsystems/Chassis.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="639" selectionTopPixel="129"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="Robot.h" partName="Robot.h" path="D:/software/usfirst/2014/aerial_assist/wind_river/Sonic Howl/Robot.h" title="Robot.h" tooltip="Sonic Howl/Robot.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Sonic Howl/Robot.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="970" selectionTopPixel="95"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="Launcher.cpp" partName="Launcher.cpp" path="D:/software/usfirst/2014/aerial_assist/wind_river/Sonic Howl/Subsystems/Launcher.cpp" title="Launcher.cpp" tooltip="Sonic Howl/Subsystems/Launcher.cpp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Sonic Howl/Subsystems/Launcher.cpp"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="547" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="Launcher.h" partName="Launcher.h" path="D:/software/usfirst/2014/aerial_assist/wind_river/Sonic Howl/Subsystems/Launcher.h" title="Launcher.h" tooltip="Sonic Howl/Subsystems/Launcher.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Sonic Howl/Subsystems/Launcher.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="563" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="Pickup.cpp" partName="Pickup.cpp" path="D:/software/usfirst/2014/aerial_assist/wind_river/Sonic Howl/Subsystems/Pickup.cpp" title="Pickup.cpp" tooltip="Sonic Howl/Subsystems/Pickup.cpp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Sonic Howl/Subsystems/Pickup.cpp"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="513" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="Pickup.h" partName="Pickup.h" path="D:/software/usfirst/2014/aerial_assist/wind_river/Sonic Howl/Subsystems/Pickup.h" title="Pickup.h" tooltip="Sonic Howl/Subsystems/Pickup.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Sonic Howl/Subsystems/Pickup.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="567" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="RobotMap.cpp" partName="RobotMap.cpp" path="D:/software/usfirst/2014/aerial_assist/wind_river/Sonic Howl/RobotMap.cpp" title="RobotMap.cpp" tooltip="Sonic Howl/RobotMap.cpp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Sonic Howl/RobotMap.cpp"/>
+<editorState selectionHorizontalPixel="0" selectionLength="18" selectionOffset="1212" selectionTopPixel="0"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="Robot.cpp" partName="Robot.cpp" path="D:/software/usfirst/2014/aerial_assist/wind_river/Sonic Howl/Robot.cpp" title="Robot.cpp" tooltip="Sonic Howl/Robot.cpp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Sonic Howl/Robot.cpp"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2235" selectionTopPixel="544"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="WheelVector.h" partName="WheelVector.h" path="D:/software/usfirst/2014/aerial_assist/wind_river/Sonic Howl/Commands/WheelVector.h" title="WheelVector.h" tooltip="Sonic Howl/Commands/WheelVector.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Sonic Howl/Commands/WheelVector.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1584" selectionTopPixel="918"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="PickupBall.cpp" partName="PickupBall.cpp" path="D:/software/usfirst/2014/aerial_assist/wind_river/Sonic Howl/Commands/PickupBall.cpp" title="PickupBall.cpp" tooltip="Sonic Howl/Commands/PickupBall.cpp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Sonic Howl/Commands/PickupBall.cpp"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1178" selectionTopPixel="248"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="PickupBall.h" partName="PickupBall.h" path="D:/software/usfirst/2014/aerial_assist/wind_river/Sonic Howl/Commands/PickupBall.h" title="PickupBall.h" tooltip="Sonic Howl/Commands/PickupBall.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Sonic Howl/Commands/PickupBall.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="66" selectionOffset="843" selectionTopPixel="129"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="Shoot.h" partName="Shoot.h" path="D:/software/usfirst/2014/aerial_assist/wind_river/Sonic Howl/Commands/Shoot.h" title="Shoot.h" tooltip="Sonic Howl/Commands/Shoot.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Sonic Howl/Commands/Shoot.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="53" selectionOffset="833" selectionTopPixel="78"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="Shoot.cpp" partName="Shoot.cpp" path="D:/software/usfirst/2014/aerial_assist/wind_river/Sonic Howl/Commands/Shoot.cpp" title="Shoot.cpp" tooltip="Sonic Howl/Commands/Shoot.cpp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Sonic Howl/Commands/Shoot.cpp"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1171" selectionTopPixel="255"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="MyRobot.cpp" partName="MyRobot.cpp" path="D:/software/usfirst/2014/aerial_assist/wind_river/launcher/MyRobot.cpp" title="MyRobot.cpp" tooltip="launcher/MyRobot.cpp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/launcher/MyRobot.cpp"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="377" selectionTopPixel="0"/>
+</editor>
 </editors>
 <views>
-<view id="org.eclipse.ui.navigator.ProjectExplorer" partName="Project Explorer">
-<viewState CommonNavigator.LINKING_ENABLED="0" CommonNavigator.LINKING_ENABLED.delayed="0" org.eclipse.cdt.ui.cview.groupincludes="true" org.eclipse.cdt.ui.cview.groupmacros="false" org.eclipse.cdt.ui.editor.CUChildren="false" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0"/>
-</view>
+<view id="com.windriver.ide.importexport.PerspectiveLayoutView" partName="Perspective Layout"/>
 <view id="org.eclipse.rse.ui.view.systemView" partName="Remote Systems">
 <viewState/>
 </view>
-<view id="org.eclipse.tm.terminal.view.TerminalView" partName="Terminal"/>
+<view id="org.eclipse.tm.terminal.view.TerminalView" partName="Terminal 1">
+<viewState Title="Terminal 1" _keys_="Title,connectionManageractive,connectionManagerconnection0HasCommandInputField,connectionManagerconnection0PartName,connectionManagersize" connectionManageractive="connection0" connectionManagerconnection0HasCommandInputField="false" connectionManagerconnection0PartName="Terminal 1" connectionManagersize="1"/>
+</view>
+<view id="org.eclipse.debug.ui.DebugView" partName="Debug">
+<viewState/>
+</view>
+<view id="org.eclipse.cdt.debug.ui.memory.memorybrowser.MemoryBrowser" partName="Memory Browser"/>
+<view id="com.windriver.ide.ui.build.WRBuildConsoleView" partName="Build Console">
+<viewState>
+<buildArgsViewState traceBuildRun="true">
+<buildArgs selection=""/>
+</buildArgsViewState>
+</viewState>
+</view>
 <view id="org.eclipse.ui.views.TaskList" partName="Tasks">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.completionField" categoryGroup="none" markerContentGenerator="org.eclipse.ui.ide.tasksGenerator" partName="Tasks">
 <columnWidths org.eclipse.ui.ide.completionField="40" org.eclipse.ui.ide.descriptionField="304" org.eclipse.ui.ide.locationField="64" org.eclipse.ui.ide.markerType="94" org.eclipse.ui.ide.pathField="124" org.eclipse.ui.ide.priorityField="20" org.eclipse.ui.ide.resourceField="94"/>
@@ -52,11 +162,29 @@
 <visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
 </viewState>
 </view>
+<view id="org.eclipse.debug.ui.BreakpointView" partName="Breakpoints">
+<viewState/>
+</view>
+<view id="org.eclipse.debug.ui.VariableView" partName="Variables">
+<viewState/>
+</view>
 <view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
 <viewState/>
 </view>
+<view id="org.eclipse.ui.navigator.ProjectExplorer" partName="Project Explorer">
+<viewState CommonNavigator.LINKING_ENABLED="0" CommonNavigator.LINKING_ENABLED.delayed="0" org.eclipse.cdt.ui.cview.groupincludes="true" org.eclipse.cdt.ui.cview.groupmacros="false" org.eclipse.cdt.ui.editor.CUChildren="false" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0"/>
+</view>
+<view id="org.eclipse.debug.ui.ExpressionView" partName="Expressions">
+<viewState/>
+</view>
+<view id="org.eclipse.debug.ui.RegisterView" partName="Registers">
+<viewState/>
+</view>
+<view id="com.windriver.ide.launch.ui.DebugSymbolBrowserView" partName="Debug Symbol Browser">
+<viewState/>
+</view>
 </views>
-<perspectives activePart="org.eclipse.rse.ui.view.systemView" activePerspective="com.windriver.ide.perspective.SDE">
+<perspectives activePart="org.eclipse.ui.navigator.ProjectExplorer" activePerspective="DFE">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="com.windriver.ide.ui.SDEPerspectiveFactory" id="com.windriver.ide.perspective.SDE" label="Basic Device Development"/>
 <alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
@@ -116,13 +244,13 @@
 <hide_menu_item_id id="org.eclipse.debug.ui.commands.ProfileLast"/>
 <hide_menu_item_id id="org.eclipse.jdt.ui.edit.text.java.move.element"/>
 <hide_menu_item_id id="org.eclipse.jdt.ui.edit.text.java.self.encapsulate.field"/>
-<hide_menu_item_id id="org.eclipse.jdt.ui.edit.text.java.search.write.access.in.project"/>
 <hide_menu_item_id id="org.eclipse.ui.navigate.addToWorkingSet"/>
+<hide_menu_item_id id="org.eclipse.jdt.ui.edit.text.java.search.write.access.in.project"/>
 <hide_menu_item_id id="org.eclipse.ltk.ui.refactor.apply.refactoring.script"/>
 <hide_menu_item_id id="org.eclipse.jdt.debug.ui.commands.AllReferences"/>
 <hide_menu_item_id id="org.eclipse.ui.file.revert"/>
-<hide_menu_item_id id="org.eclipse.jdt.ui.edit.text.java.open.super.implementation"/>
 <hide_menu_item_id id="org.eclipse.ui.cheatsheets.actions.CheatSheetHelpMenuAction"/>
+<hide_menu_item_id id="org.eclipse.jdt.ui.edit.text.java.open.super.implementation"/>
 <hide_menu_item_id id="org.eclipse.ui.window.closeAllPerspectives"/>
 <hide_menu_item_id id="org.eclipse.wst.sse.ui.structure.select.previous"/>
 <hide_menu_item_id id="org.eclipse.jdt.ui.edit.text.java.generate.hashcode.equals"/>
@@ -156,27 +284,27 @@
 <hide_menu_item_id id="org.eclipse.jdt.ui.generate.javadoc"/>
 <hide_menu_item_id id="org.eclipse.jdt.ui.edit.text.java.introduce.parameter"/>
 <hide_menu_item_id id="org.eclipse.jdt.ui.edit.text.java.open.type.hierarchy"/>
-<hide_menu_item_id id="org.eclipse.team.cvs.ui.updateSwitch"/>
 <hide_menu_item_id id="org.eclipse.debug.ui.commands.ToggleMethodBreakpoint"/>
+<hide_menu_item_id id="org.eclipse.team.cvs.ui.updateSwitch"/>
 <hide_menu_item_id id="org.eclipse.jdt.ui.edit.text.java.infer.type.arguments"/>
 <hide_menu_item_id id="org.eclipse.wst.sse.ui.format.active.elements"/>
 <hide_menu_item_id id="org.eclipse.jdt.debug.ui.commands.StepIntoSelection"/>
 <hide_menu_item_id id="org.eclipse.jdt.ui.edit.text.java.push.down"/>
-<hide_menu_item_id id="org.eclipse.debug.ui.actions.BreakpointTypesContribution"/>
 <hide_menu_item_id id="org.eclipse.ui.window.newEditor"/>
+<hide_menu_item_id id="org.eclipse.debug.ui.actions.BreakpointTypesContribution"/>
 <hide_menu_item_id id="com.windriver.ide.debug.ui.menu.dropToFrameAction"/>
-<hide_menu_item_id id="org.eclipse.ui.edit.text.shiftRight"/>
 <hide_menu_item_id id="org.eclipse.ui.navigate.selectWorkingSets"/>
-<hide_menu_item_id id="org.eclipse.debug.ui.commands.StepOver"/>
+<hide_menu_item_id id="org.eclipse.ui.edit.text.shiftRight"/>
 <hide_menu_item_id id="org.eclipse.jdt.ui.edit.text.java.extract.method"/>
+<hide_menu_item_id id="org.eclipse.debug.ui.commands.StepOver"/>
 <hide_menu_item_id id="org.eclipse.jdt.ui.edit.text.java.search.occurrences.in.file.quickMenu"/>
 <hide_menu_item_id id="org.eclipse.jdt.ui.edit.text.java.find.broken.nls.keys"/>
 <hide_menu_item_id id="org.eclipse.ui.file.saveAll"/>
 <hide_menu_item_id id="org.eclipse.jdt.ui.edit.text.java.extract.class"/>
 <hide_menu_item_id id="org.eclipse.jdt.ui.edit.text.java.introduce.indirection"/>
 <hide_menu_item_id id="org.eclipse.jdt.ui.navigate.gotopackage"/>
-<hide_menu_item_id id="org.eclipse.jdt.ui.edit.text.java.search.write.access.in.workspace"/>
 <hide_menu_item_id id="org.eclipse.jdt.junit.gotoTest"/>
+<hide_menu_item_id id="org.eclipse.jdt.ui.edit.text.java.search.write.access.in.workspace"/>
 <hide_menu_item_id id="org.eclipse.jdt.ui.edit.text.java.quick.format"/>
 <hide_menu_item_id id="com.windriver.ide.debug.ui.menu.setBreakpointAtFrameFunctionAction"/>
 <hide_menu_item_id id="org.eclipse.jdt.ui.navigate.gototype"/>
@@ -187,16 +315,16 @@
 <hide_menu_item_id id="org.eclipse.cdt.dsf.test.fileBrowser"/>
 <hide_menu_item_id id="org.eclipse.cdt.debug.ui.internal.actions.RestartActionDelegate"/>
 <hide_menu_item_id id="org.eclipse.jdt.ui.edit.text.java.add.block.comment"/>
-<hide_menu_item_id id="org.eclipse.debug.ui.commands.Resume"/>
 <hide_menu_item_id id="org.eclipse.jdt.ui.navigate.open.type"/>
+<hide_menu_item_id id="org.eclipse.debug.ui.commands.Resume"/>
 <hide_menu_item_id id="com.windriver.ide.wrlinux.ui.quiltAction"/>
 <hide_menu_item_id id="org.eclipse.jdt.ui.edit.text.java.add.unimplemented.constructors"/>
 <hide_menu_item_id id="com.windriver.ide.debug.ui.menu.addDataBreakpointAction"/>
-<hide_menu_item_id id="org.eclipse.jdt.debug.ui.commands.ForceReturn"/>
 <hide_menu_item_id id="org.eclipse.jdt.ui.edit.text.java.open.external.javadoc"/>
+<hide_menu_item_id id="org.eclipse.jdt.debug.ui.commands.ForceReturn"/>
 <hide_menu_item_id id="org.eclipse.wst.sse.ui.goto.matching.bracket"/>
-<hide_menu_item_id id="org.eclipse.debug.internal.ui.actions.ProfileWithConfigurationAction"/>
 <hide_menu_item_id id="org.eclipse.cdt.ui.edit.text.rename.element"/>
+<hide_menu_item_id id="org.eclipse.debug.internal.ui.actions.ProfileWithConfigurationAction"/>
 <hide_menu_item_id id="org.eclipse.team.cvs.ui.update"/>
 <hide_menu_item_id id="org.eclipse.jdt.ui.edit.text.java.search.declarations.in.working.set"/>
 <hide_menu_item_id id="com.windriver.ide.debug.ui.menu.runToFrameAddressAction"/>
@@ -295,16 +423,16 @@
 <hide_menu_item_id id="com.windriver.ide.ui.internal.actions.register2eclipseaction"/>
 <hide_menu_item_id id="org.eclipse.jdt.ui.edit.text.java.extract.constant"/>
 <hide_menu_item_id id="org.eclipse.wst.sse.ui.remove.block.comment"/>
-<hide_menu_item_id id="org.eclipse.jdt.ui.edit.text.java.search.implementors.in.working.set"/>
 <hide_menu_item_id id="org.eclipse.wst.sse.ui.cleanup.document"/>
-<hide_menu_item_id id="org.eclipse.jdt.ui.edit.text.java.search.declarations.in.workspace"/>
+<hide_menu_item_id id="org.eclipse.jdt.ui.edit.text.java.search.implementors.in.working.set"/>
 <hide_menu_item_id id="org.eclipse.wst.xml.ui.nextSibling"/>
+<hide_menu_item_id id="org.eclipse.jdt.ui.edit.text.java.search.declarations.in.workspace"/>
 <hide_menu_item_id id="org.eclipse.jdt.ui.edit.text.java.open.call.hierarchy"/>
 <hide_menu_item_id id="org.eclipse.cdt.debug.ui.actions.ResumeAtLine"/>
-<hide_menu_item_id id="org.eclipse.jdt.ui.edit.text.java.organize.imports"/>
 <hide_menu_item_id id="org.eclipse.ui.edit.text.shiftLeft"/>
-<hide_menu_item_id id="org.eclipse.ui.update.manageConfiguration"/>
+<hide_menu_item_id id="org.eclipse.jdt.ui.edit.text.java.organize.imports"/>
 <hide_menu_item_id id="org.eclipse.search.ui.openSearchDialog"/>
+<hide_menu_item_id id="org.eclipse.ui.update.manageConfiguration"/>
 <hide_menu_item_id id="org.eclipse.debug.ui.commands.RemoveAllBreakpoints"/>
 <hide_menu_item_id id="org.eclipse.jdt.ui.edit.text.java.format"/>
 <hide_menu_item_id id="org.eclipse.wst.sse.ui.structure.select.next"/>
@@ -316,14 +444,14 @@
 <hide_toolbar_item_id id="org.eclipse.ui.externaltools.ExternalToolMenuDelegateToolbar"/>
 <hide_toolbar_item_id id="com.windriver.ide.ui.SetEmacsKeysAction"/>
 <hide_toolbar_item_id id="org.eclipse.team.ui.synchronizeAll"/>
-<hide_toolbar_item_id id="org.eclipse.cdt.dsf.debug.ui.refreshAll"/>
 <hide_toolbar_item_id id="com.windriver.ide.search.performOpenTextSearch"/>
-<hide_toolbar_item_id id="org.eclipse.ui.navigate.selectWorkingSets"/>
+<hide_toolbar_item_id id="org.eclipse.cdt.dsf.debug.ui.refreshAll"/>
 <hide_toolbar_item_id id="com.windriver.ide.staticanalysis.ui.openElementInCallHierarchy"/>
-<hide_toolbar_item_id id="org.eclipse.jdt.ui.edit.text.java.toggleBreadcrumb"/>
+<hide_toolbar_item_id id="org.eclipse.ui.navigate.selectWorkingSets"/>
 <hide_toolbar_item_id id="org.eclipse.jdt.ui.navigate.open.type"/>
-<hide_toolbar_item_id id="com.windriver.ide.vxworks55.action.launch_tornado"/>
+<hide_toolbar_item_id id="org.eclipse.jdt.ui.edit.text.java.toggleBreadcrumb"/>
 <hide_toolbar_item_id id="org.eclipse.cdt.ui.actions.NewFolderDropDown"/>
+<hide_toolbar_item_id id="com.windriver.ide.vxworks55.action.launch_tornado"/>
 <hide_toolbar_item_id id="com.windriver.ide.wrlinux.ui.quiltAction"/>
 <hide_toolbar_item_id id="org.eclipse.cdt.ui.actions.NewTypeDropDown"/>
 <hide_toolbar_item_id id="org.eclipse.ui.navigate.addToWorkingSet"/>
@@ -341,12 +469,13 @@
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
 <hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.NewTypeDropDown"/>
 <hide_toolbar_item_id id="org.eclipse.team.cvs.ui.checkout"/>
-<hide_toolbar_item_id id="com.windriver.scopetools.memscope.WRMemoryToolbarAction"/>
 <hide_toolbar_item_id id="org.eclipse.debug.internal.ui.actions.ProfileDropDownAction"/>
+<hide_toolbar_item_id id="com.windriver.scopetools.memscope.WRMemoryToolbarAction"/>
 <view id="org.eclipse.ui.navigator.ProjectExplorer"/>
 <view id="org.eclipse.rse.ui.view.systemView"/>
 <view id="org.eclipse.ui.views.TaskList"/>
 <view id="org.eclipse.tm.terminal.view.TerminalView"/>
+<view id="com.windriver.ide.ui.build.WRBuildConsoleView"/>
 <view id="org.eclipse.ui.views.ContentOutline"/>
 <fastViewBars/>
 <layout>
@@ -370,9 +499,10 @@
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.2696477" ratioLeft="398" ratioRight="1078" relationship="2" relative="left"/>
 <info folder="true" part="bottom" ratio="0.72901326" ratioLeft="495" ratioRight="184" relationship="4" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.views.TaskList" appearance="2" expanded="2">
+<folder activePageID="com.windriver.ide.ui.build.WRBuildConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
-<page content="org.eclipse.tm.terminal.view.TerminalView" label="Terminal"/>
+<page content="org.eclipse.tm.terminal.view.TerminalView" label="Terminal 1"/>
+<page content="com.windriver.ide.ui.build.WRBuildConsoleView" label="Build Console"/>
 <page content="org.eclipse.pde.runtime.LogView" label="LabelNotFound"/>
 <page content="com.windriver.ide.common.ui.terminal.TerminalConsoleView" label="LabelNotFound"/>
 <page content="com.windriver.ide.ocd.ui.command.TerminalView" label="LabelNotFound"/>
@@ -382,6 +512,7 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
 <part id="1"/>
+<part id="2"/>
 </presentation>
 </folder>
 </info>
@@ -407,14 +538,380 @@
 </mainWindow>
 </layout>
 </perspective>
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="com.windriver.rb.eclipse.fm.RiverBedPerspective" id="DFE" label="Device Debug"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="org.eclipse.rse.core.search.searchActionSet"/>
+<alwaysOnActionSet id="com.windriver.ide.search.ui.actionSet"/>
+<alwaysOnActionSet id="com.windriver.ide.ui.help.feedback"/>
+<alwaysOnActionSet id="com.windriver.ide.ui.SetEmacsKeys"/>
+<alwaysOnActionSet id="com.windriver.ide.common.ui.script"/>
+<alwaysOnActionSet id="com.windriver.ide.launch.run"/>
+<alwaysOnActionSet id="com.windriver.ide.debug.ui.osobjects.actionSets"/>
+<alwaysOnActionSet id="com.windriver.ide.launch.download"/>
+<alwaysOnActionSet id="edu.wpi.robotdeploymenttool"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
+<alwaysOnActionSet id="com.windriver.ide.debug.ui.debugActionSet"/>
+<alwaysOnActionSet id="com.windriver.ide.debug.ui.breakpointsActionSet"/>
+<alwaysOnActionSet id="com.windriver.ide.debug.ui.tracepointsActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
+<alwaysOnActionSet id="org.eclipse.cdt.dsf.debug.ui.updateModes"/>
+<alwaysOnActionSet id="org.eclipse.ui.NavigateActionSet"/>
+<alwaysOnActionSet id="com.windriver.ide.ui.internal.wwwLinksActionSet"/>
+<alwaysOnActionSet id="com.windriver.ide.ui.internal.actions.register2eclipse"/>
+<alwaysOnActionSet id="org.eclipse.cdt.ui.NavigationActionSet"/>
+<alwaysOnActionSet id="org.eclipse.cdt.ui.OpenActionSet"/>
+<alwaysOnActionSet id="com.windriver.analysis.windview.actionSet"/>
+<alwaysOnActionSet id="com.windriver.analysis.eventreceive.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.debugActionSet"/>
+<show_view_action id="org.eclipse.debug.ui.DebugView"/>
+<show_view_action id="org.eclipse.debug.ui.VariableView"/>
+<show_view_action id="org.eclipse.debug.ui.RegisterView"/>
+<show_view_action id="org.eclipse.debug.ui.ExpressionView"/>
+<show_view_action id="org.eclipse.debug.ui.BreakpointView"/>
+<show_view_action id="com.windriver.ide.debug.ui.osobjects.KOView"/>
+<show_view_action id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<show_view_action id="com.windriver.ide.ui.project.WRFileView"/>
+<show_view_action id="com.windriver.ide.launch.ui.DebugSymbolBrowserView"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="org.eclipse.ui.views.PropertySheet"/>
+<show_view_action id="org.eclipse.cdt.debug.ui.memory.memorybrowser.MemoryBrowser"/>
+<show_view_action id="org.eclipse.rse.ui.view.systemView"/>
+<show_view_action id="org.eclipse.ui.console.ConsoleView"/>
+<show_view_action id="org.eclipse.tm.terminal.view.TerminalView"/>
+<new_wizard_action id="com.windriver.ide.ui.build.wizards.WRBuildTargetWizard"/>
+<new_wizard_action id="com.windriver.ide.ocd.ui.jtageditor.wizard.new.file"/>
+<new_wizard_action id="com.windriver.ide.wrlinux.ui.wizards.WRLinuxApplicationProjectWizard"/>
+<new_wizard_action id="com.windriver.ide.wrlinux.ui.wizards.WRLinuxUserProjectWizard"/>
+<new_wizard_action id="com.windriver.ide.wrlinux.rtcore.wizards.WRLinuxRTCoreKernelAppProjectWizard"/>
+<new_wizard_action id="com.windriver.ide.wrlinux.rtcore.wizards.WRLinuxRTCoreKernelModuleProjectWizard"/>
+<new_wizard_action id="com.windriver.ide.wrlinux.rtcore.wizards.WRLinuxRTCoreApplicationProjectWizard"/>
+<new_wizard_action id="com.windriver.ide.ui.project.wizards.WRStandaloneApplicationProjectWizard"/>
+<new_wizard_action id="com.windriver.ide.osconfig.ui.screen.WRBSPProjectWizard"/>
+<new_wizard_action id="com.windriver.ide.ui.project.wizards.WRDownloadAbleModuleProjectWizard"/>
+<new_wizard_action id="com.windriver.ide.vxFS.wizards.WRFSWizard"/>
+<new_wizard_action id="com.windriver.ide.osconfig.ui.screen.BIPWizard"/>
+<new_wizard_action id="com.windriver.ide.ui.project.wizards.WRRealTimeProcessProjectWizard"/>
+<new_wizard_action id="com.windriver.ide.ui.project.wizards.WRSharedLibProjectWizard"/>
+<new_wizard_action id="com.windriver.ide.osconfig.ui.screen.WRVSBProjectWizard"/>
+<new_wizard_action id="com.windriver.ide.ui.project.wizards.WRVxWorks55ApplicationProjectWizard"/>
+<new_wizard_action id="com.windriver.ide.vxworks653.ui.wizards.WRVxWorks653IntegrationProjectWizard"/>
+<new_wizard_action id="com.windriver.ide.vxworks653.ui.wizards.WRVxWorks653CRProjectWizard"/>
+<new_wizard_action id="com.windriver.ide.vxworks653.ui.wizards.WRVxWorks653MOSProjectWizard"/>
+<new_wizard_action id="com.windriver.ide.vxworks653.ui.wizards.WRVxWorks653ACEProjectWizard"/>
+<new_wizard_action id="com.windriver.ide.vxworks653.ui.wizards.WRVxWorks653POSProjectWizard"/>
+<new_wizard_action id="com.windriver.ide.vxworks653.ui.wizards.WRVxWorks653ApplicationProjectWizard"/>
+<new_wizard_action id="com.windriver.ide.vxworks653.ui.wizards.WRVxWorks653SLProjectWizard"/>
+<new_wizard_action id="com.windriver.ide.vxworks653.ui.wizards.WRVxWorks653SDProjectWizard"/>
+<new_wizard_action id="com.windriver.ide.vxworks653.ui.wizards.WRVxWorks653UCRProjectWizard"/>
+<new_wizard_action id="com.windriver.ide.vxworkscert.ui.wizards.WRSKMProjectWizard"/>
+<new_wizard_action id="com.windriver.ide.vxworksmils.ui.wizards.WRIPWizard"/>
+<new_wizard_action id="com.windriver.ide.vxworksmils.ui.wizards.WRKIPWizard"/>
+<new_wizard_action id="com.windriver.ide.vxworksmilshae.ui.wizards.WRAPWizard"/>
+<new_wizard_action id="com.windriver.ide.vthreads.ui.wizards.WRAPWizard"/>
+<new_wizard_action id="com.windriver.ide.wrhv.ui.wizards.WRIPWizard"/>
+<new_wizard_action id="com.windriver.ide.wrhv.ui.wizards.WRSBWizard"/>
+<new_wizard_action id="com.windriver.ide.wrhv.ui.wizards.WRAPWizard"/>
+<new_wizard_action id="com.windriver.ide.ui.project.wizards.WRUserProjectWizard"/>
+<new_wizard_action id="com.windriver.ide.ui.project.wizards.WRNativeApplicationProjectWizard"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.folder"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.file"/>
+<new_wizard_action id="com.windriver.ide.ui.project.wizards.WRNewFileWizard"/>
+<perspective_action id="com.windriver.ide.perspective.SDE"/>
+<perspective_action id="com.windriver.ide.perspective.ADE"/>
+<perspective_action id="DFE"/>
+<perspective_action id="com.windriver.ide.perspective.OCD"/>
+<perspective_action id="org.eclipse.rse.ui.view.SystemPerspective"/>
+<hide_toolbar_item_id id="com.windriver.ide.ui.SetEmacsKeysAction"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<view id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<view id="org.eclipse.rse.ui.view.systemView"/>
+<view id="org.eclipse.debug.ui.BreakpointView"/>
+<view id="org.eclipse.debug.ui.VariableView"/>
+<view id="org.eclipse.debug.ui.RegisterView"/>
+<view id="org.eclipse.debug.ui.ExpressionView"/>
+<view id="org.eclipse.cdt.debug.ui.memory.memorybrowser.MemoryBrowser"/>
+<view id="com.windriver.ide.importexport.PerspectiveLayoutView"/>
+<view id="org.eclipse.tm.terminal.view.TerminalView"/>
+<view id="com.windriver.ide.ui.build.WRBuildConsoleView"/>
+<view id="org.eclipse.debug.ui.DebugView"/>
+<view id="com.windriver.ide.launch.ui.DebugSymbolBrowserView"/>
+<fastViewBars/>
+<layout>
+<mainWindow>
+<info folder="true" part="left0">
+<folder activePageID="org.eclipse.ui.navigator.ProjectExplorer" appearance="2" expanded="2">
+<page content="org.eclipse.ui.navigator.ProjectExplorer" label="Project Explorer"/>
+<page content="com.windriver.ide.ui.project.WRFileView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@1bde1d6" ratio="0.7496689" ratioLeft="566" ratioRight="189" relationship="4" relative="left0">
+<folder activePageID="org.eclipse.debug.ui.DebugView" appearance="2" expanded="2">
+<page content="org.eclipse.tm.terminal.view.TerminalView" label="Terminal 1"/>
+<page content="com.windriver.ide.ui.build.WRBuildConsoleView" label="Build Console"/>
+<page content="org.eclipse.debug.ui.DebugView" label="Debug"/>
+<page content="com.windriver.ide.launch.ui.DebugSymbolBrowserView" label="Debug Symbol Browser"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="1194" ratioRight="398" relationship="2" relative="left0">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.24040277" ratioLeft="382" ratioRight="1207" relationship="2" relative="left0"/>
+<info folder="true" part="right1" ratio="0.7" ratioLeft="847" ratioRight="363" relationship="2" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.debug.ui.BreakpointView" appearance="2" expanded="2">
+<page content="org.eclipse.debug.ui.BreakpointView" label="Breakpoints"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="right2" ratio="0.4990619" ratioLeft="266" ratioRight="267" relationship="4" relative="right1">
+<folder activePageID="org.eclipse.debug.ui.VariableView" appearance="2" expanded="2">
+<page content="org.eclipse.debug.ui.VariableView" label="Variables"/>
+<page content="org.eclipse.debug.ui.RegisterView" label="Registers"/>
+<page content="org.eclipse.debug.ui.ExpressionView" label="Expressions"/>
+<page content="org.eclipse.cdt.debug.ui.memory.memorybrowser.MemoryBrowser" label="Memory Browser"/>
+<page content="com.windriver.ide.importexport.PerspectiveLayoutView" label="Perspective Layout"/>
+<page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="bottom" ratio="0.66918236" ratioLeft="532" ratioRight="263" relationship="4" relative="org.eclipse.ui.editorss">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.pde.runtime.LogView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.TaskList" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.PropertySheet" label="LabelNotFound"/>
+<page content="*" label="LabelNotFound"/>
+<page content="com.windriver.ide.common.ui.terminal.TerminalConsoleView" label="LabelNotFound"/>
+<page content="com.windriver.ide.target.ui.TargetConsoleView" label="LabelNotFound"/>
+<page content="com.windriver.ide.target.ui.dfw.WRDFWInfoRetrieveView" label="LabelNotFound"/>
+<page content="com.windriver.ide.target.ui.wtx.WRWTXRegistryView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.console.ConsoleView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info folder="true" part="left1" ratio="0.7267857" ratioLeft="407" ratioRight="153" relationship="4" relative="left0">
+<folder activePageID="org.eclipse.rse.ui.view.systemView" appearance="2" expanded="2">
+<page content="org.eclipse.rse.ui.view.systemView" label="Remote Systems"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
 </perspectives>
 <workingSets/>
-<navigationHistory/>
+<navigationHistory>
+<editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/mecanum_custom/MyRobot.cpp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Sonic Howl/Commands/Drive.cpp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Sonic Howl/Commands/Drive.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Sonic Howl/RobotMap.cpp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Sonic Howl/Robot.cpp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Sonic Howl/Commands/WheelVector.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Sonic Howl/RobotMap.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Sonic Howl/Commands/PickupBall.cpp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Sonic Howl/Commands/PickupBall.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Sonic Howl/Commands/Shoot.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Sonic Howl/Commands/Shoot.cpp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/launcher/MyRobot.cpp"/>
+</editors>
+<item historyLabel="Drive.cpp" index="1">
+<position info="not_deleted" x="512" y="0"/>
+</item>
+<item historyLabel="MyRobot.cpp" index="0">
+<position info="not_deleted" x="4324" y="808"/>
+</item>
+<item historyLabel="Drive.cpp" index="1">
+<position info="not_deleted" x="505" y="0"/>
+</item>
+<item historyLabel="Drive.h" index="2">
+<position info="not_deleted" x="881" y="0"/>
+</item>
+<item historyLabel="Drive.cpp" index="1">
+<position info="not_deleted" x="1198" y="11"/>
+</item>
+<item historyLabel="Robot.cpp" index="4">
+<position info="not_deleted" x="682" y="1"/>
+</item>
+<item historyLabel="Drive.cpp" index="1">
+<position info="not_deleted" x="1198" y="11"/>
+</item>
+<item historyLabel="Drive.h" index="2">
+<position info="not_deleted" x="897" y="0"/>
+</item>
+<item historyLabel="Drive.cpp" index="1">
+<position info="not_deleted" x="510" y="0"/>
+</item>
+<item historyLabel="Drive.h" index="2">
+<position info="not_deleted" x="897" y="0"/>
+</item>
+<item historyLabel="Drive.cpp" index="1">
+<position info="not_deleted" x="510" y="0"/>
+</item>
+<item historyLabel="Drive.cpp" index="1">
+<position info="not_deleted" x="1227" y="0"/>
+</item>
+<item historyLabel="WheelVector.h" index="5">
+<position info="not_deleted" x="1584" y="0"/>
+</item>
+<item historyLabel="Drive.cpp" index="1">
+<position info="not_deleted" x="1084" y="0"/>
+</item>
+<item historyLabel="Drive.h" index="2">
+<position info="not_deleted" x="897" y="0"/>
+</item>
+<item historyLabel="Drive.cpp" index="1">
+<position info="not_deleted" x="1777" y="0"/>
+</item>
+<item historyLabel="RobotMap.cpp" index="3">
+<position info="not_deleted" x="649" y="0"/>
+</item>
+<item historyLabel="RobotMap.h" index="6">
+<position info="not_deleted" x="943" y="17"/>
+</item>
+<item historyLabel="RobotMap.cpp" index="3">
+<position info="not_deleted" x="649" y="0"/>
+</item>
+<item historyLabel="Robot.cpp" index="4">
+<position info="not_deleted" x="682" y="1"/>
+</item>
+<item historyLabel="Drive.cpp" index="1">
+<position info="not_deleted" x="1084" y="0"/>
+</item>
+<item historyLabel="Drive.h" index="2">
+<position info="not_deleted" x="1033" y="0"/>
+</item>
+<item historyLabel="Drive.cpp" index="1">
+<position info="not_deleted" x="1765" y="10"/>
+</item>
+<item historyLabel="Drive.h" index="2">
+<position info="not_deleted" x="929" y="0"/>
+</item>
+<item historyLabel="RobotMap.cpp" index="3">
+<position info="not_deleted" x="615" y="16"/>
+</item>
+<item historyLabel="Drive.h" index="2">
+<position info="not_deleted" x="929" y="10"/>
+</item>
+<item historyLabel="Drive.cpp" index="1">
+<position info="not_deleted" x="1924" y="0"/>
+</item>
+<item historyLabel="MyRobot.cpp" index="0">
+<position info="not_deleted" x="497" y="0"/>
+</item>
+<item historyLabel="Robot.cpp" index="4">
+<position info="not_deleted" x="1752" y="0"/>
+</item>
+<item historyLabel="PickupBall.cpp" index="7">
+<position info="not_deleted" x="881" y="0"/>
+</item>
+<item historyLabel="PickupBall.h" index="8">
+<position info="not_deleted" x="909" y="0"/>
+</item>
+<item historyLabel="RobotMap.cpp" index="3">
+<position info="not_deleted" x="1116" y="8"/>
+</item>
+<item historyLabel="PickupBall.h" index="8">
+<position info="not_deleted" x="843" y="66"/>
+</item>
+<item historyLabel="PickupBall.cpp" index="7">
+<position info="not_deleted" x="881" y="0"/>
+</item>
+<item historyLabel="PickupBall.cpp" index="7">
+<position info="not_deleted" x="1286" y="0"/>
+</item>
+<item historyLabel="PickupBall.cpp" index="7">
+<position info="not_deleted" x="1214" y="0"/>
+</item>
+<item historyLabel="PickupBall.cpp" index="7">
+<position info="not_deleted" x="1178" y="0"/>
+</item>
+<item historyLabel="Shoot.h" index="9">
+<position info="not_deleted" x="886" y="0"/>
+</item>
+<item historyLabel="RobotMap.cpp" index="3">
+<position info="not_deleted" x="1212" y="18"/>
+</item>
+<item historyLabel="Shoot.h" index="9">
+<position info="not_deleted" x="833" y="53"/>
+</item>
+<item historyLabel="Shoot.cpp" index="10">
+<position info="not_deleted" x="1177" y="0"/>
+</item>
+<item historyLabel="Shoot.h" index="9">
+<position info="not_deleted" x="833" y="53"/>
+</item>
+<item historyLabel="Shoot.cpp" index="10">
+<position info="not_deleted" x="1177" y="0"/>
+</item>
+<item historyLabel="Shoot.cpp" index="10">
+<position info="not_deleted" x="494" y="0"/>
+</item>
+<item historyLabel="Robot.cpp" index="4">
+<position info="not_deleted" x="1800" y="0"/>
+</item>
+<item historyLabel="Shoot.cpp" index="10">
+<position info="not_deleted" x="779" y="0"/>
+</item>
+<item historyLabel="MyRobot.cpp" index="11">
+<position info="not_deleted" x="377" y="0"/>
+</item>
+<item historyLabel="Robot.cpp" index="4">
+<position info="not_deleted" x="1806" y="0"/>
+</item>
+<item historyLabel="Shoot.cpp" index="10">
+<position info="not_deleted" x="1171" y="0"/>
+</item>
+<item active="true" historyLabel="Robot.cpp" index="4">
+<position info="not_deleted" x="2235" y="0"/>
+</item>
+</navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
 <workbenchWindowAdvisor/>
 <actionBarAdvisor/>
 <trimLayout>
+<trimArea IMemento.internal.id="16384">
+<trimItem IMemento.internal.id="left"/>
+<trimItem IMemento.internal.id="leftbottom"/>
+<trimItem IMemento.internal.id="left0"/>
+<trimItem IMemento.internal.id="left1"/>
+</trimArea>
+<trimArea IMemento.internal.id="131072">
+<trimItem IMemento.internal.id="bottom"/>
+<trimItem IMemento.internal.id="right"/>
+<trimItem IMemento.internal.id="right1"/>
+<trimItem IMemento.internal.id="right2"/>
+</trimArea>
 <trimArea IMemento.internal.id="128">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
 </trimArea>
@@ -426,5 +923,51 @@
 </trimArea>
 </trimLayout>
 </window>
-<mruList/>
+<mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="MyRobot.cpp" tooltip="launcher/MyRobot.cpp">
+<persistable path="/launcher/MyRobot.cpp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Shoot.cpp" tooltip="Sonic Howl/Commands/Shoot.cpp">
+<persistable path="/Sonic Howl/Commands/Shoot.cpp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Shoot.h" tooltip="Sonic Howl/Commands/Shoot.h">
+<persistable path="/Sonic Howl/Commands/Shoot.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="PickupBall.h" tooltip="Sonic Howl/Commands/PickupBall.h">
+<persistable path="/Sonic Howl/Commands/PickupBall.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="PickupBall.cpp" tooltip="Sonic Howl/Commands/PickupBall.cpp">
+<persistable path="/Sonic Howl/Commands/PickupBall.cpp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="WheelVector.h" tooltip="Sonic Howl/Commands/WheelVector.h">
+<persistable path="/Sonic Howl/Commands/WheelVector.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="WheelVector.h" tooltip="mecanum_custom/WheelVector.h">
+<persistable path="/mecanum_custom/WheelVector.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Robot.cpp" tooltip="Sonic Howl/Robot.cpp">
+<persistable path="/Sonic Howl/Robot.cpp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="RobotMap.cpp" tooltip="Sonic Howl/RobotMap.cpp">
+<persistable path="/Sonic Howl/RobotMap.cpp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Pickup.h" tooltip="Sonic Howl/Subsystems/Pickup.h">
+<persistable path="/Sonic Howl/Subsystems/Pickup.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Pickup.cpp" tooltip="Sonic Howl/Subsystems/Pickup.cpp">
+<persistable path="/Sonic Howl/Subsystems/Pickup.cpp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Launcher.h" tooltip="Sonic Howl/Subsystems/Launcher.h">
+<persistable path="/Sonic Howl/Subsystems/Launcher.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Launcher.cpp" tooltip="Sonic Howl/Subsystems/Launcher.cpp">
+<persistable path="/Sonic Howl/Subsystems/Launcher.cpp"/>
+</file>
+<file factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Command.h" tooltip="C:\WindRiver\vxworks-6.3\target\h\WPILib\Commands\Command.h">
+<persistable path="C:\WindRiver\vxworks-6.3\target\h\WPILib\Commands\Command.h" project="Sonic Howl"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Robot.h" tooltip="Sonic Howl/Robot.h">
+<persistable path="/Sonic Howl/Robot.h"/>
+</file>
+</mruList>
 </workbench>

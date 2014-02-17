@@ -1,16 +1,19 @@
-#Sun Feb 16 09:24:11 EST 2014
+#Sun Feb 16 19:44:09 EST 2014
 //PROJECT/tank_drive/class\ com.windriver.ide.core.build.model.WRUserDefinedPathEntryContainer\:default=false
 //PROJECT/launcher/class\ com.windriver.ide.core.build.model.WRUserDefinedPathEntryContainer\:staticanalysisMode=0
 //PROJECT/vision/class\ com.windriver.ide.core.build.model.WRUserDefinedPathEntryContainer\:staticanalysisMode=0
 //PROJECT/mecanum_custom/class\ com.windriver.ide.core.build.model.WRUserDefinedPathEntryContainer\:useProject=false
+//PROJECT/Sonic\ Howl/class\ com.windriver.ide.core.build.model.WRUserDefinedPathEntryContainer\:default=false
 eclipse.preferences.version=1
+//PROJECT/Sonic\ Howl/class\ com.windriver.ide.core.build.model.WRUserDefinedPathEntryContainer\:staticanalysisMode=0
 //PROJECT/mecanum_custom/class\ com.windriver.ide.core.build.model.WRUserDefinedPathEntryContainer\:default=false
+//PROJECT/Sonic\ Howl/class\ com.windriver.ide.core.build.model.WRUserDefinedPathEntryContainer\:useProject=false
 //PROJECT/mecanum_drive/class\ com.windriver.ide.core.build.model.WRUserDefinedPathEntryContainer\:staticanalysisMode=0
 //PROJECT/vision/class\ com.windriver.ide.core.build.model.WRUserDefinedPathEntryContainer\:useProject=false
-//PROJECT/tank_drive/class\ com.windriver.ide.core.build.model.WRUserDefinedPathEntryContainer\:useProject=false
 //PROJECT/tank_drive/class\ com.windriver.ide.core.build.model.WRUserDefinedPathEntryContainer\:staticanalysisMode=0
-//PROJECT/mecanum_drive/class\ com.windriver.ide.core.build.model.WRUserDefinedPathEntryContainer\:default=false
+//PROJECT/tank_drive/class\ com.windriver.ide.core.build.model.WRUserDefinedPathEntryContainer\:useProject=false
 //PROJECT/robot/class\ com.windriver.ide.core.build.model.WRUserDefinedPathEntryContainer\:useProject=false
+//PROJECT/mecanum_drive/class\ com.windriver.ide.core.build.model.WRUserDefinedPathEntryContainer\:default=false
 //PROJECT/robot/class\ com.windriver.ide.core.build.model.WRUserDefinedPathEntryContainer\:default=false
 //PROJECT/robot/class\ com.windriver.ide.core.build.model.WRUserDefinedPathEntryContainer\:staticanalysisMode=0
 //PROJECT/launcher/class\ com.windriver.ide.core.build.model.WRUserDefinedPathEntryContainer\:default=false

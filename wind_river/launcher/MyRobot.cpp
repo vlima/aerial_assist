@@ -10,10 +10,11 @@ class RobotDemo: public IterativeRobot
    Joystick stick; // only joystick
    Talon bottom_talon;
    Talon top_talon;
+   Victor victor;
 
 public:
    RobotDemo() :
-      stick(1), bottom_talon(2), top_talon(1)
+      stick(1), bottom_talon(2), top_talon(1), victor(6)
    {
       this->SetPeriod(0); //Set update period to sync with robot control packets (20ms nominal)
    }
@@ -86,11 +87,13 @@ public:
     */
    void RobotDemo::TeleopPeriodic()
    {
-      if (stick.GetTrigger())
+      //if (stick.GetTrigger())
       {
          double power = stick.GetY();
+         printf("launch:  power=%2.2f, shoot=%d\n", power, stick.GetTrigger() ? 1 : 0);
          bottom_talon.Set(power);
-         top_talon.Set(-power);
+         top_talon.Set(power);
+         victor.Set(power);
       }
       Wait(0.005); // wait for a motor update time
    }
