@@ -33,6 +33,7 @@ private:
 	Joystick *j2;
 	SpeedController *arm;
 	Relay *rollers;
+	Gyro *gyro;
 };
 
 #endif

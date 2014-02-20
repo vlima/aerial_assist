@@ -23,6 +23,7 @@ Shoot::Shoot() {
 void Shoot::Initialize() {
    j2 = Robot::oi->getJoystick2();
    launcherController = RobotMap::launcherLauncherController;
+   sonar = RobotMap::sonar;
 }
 
 // Called repeatedly when this Command is scheduled to run
@@ -32,6 +33,9 @@ void Shoot::Execute() {
 	}else{
 	   launcherController->Set(0);
 	}
+	int distance = sonar->GetValue();
+	printf("distance = %d\n",distance);
+	SmartDashboard::PutNumber("Sonar",distance);
 }
 
 // Make this return true when this Command no longer needs to run execute()

@@ -32,6 +32,7 @@ public:
 private:
 	Joystick *j2;
 	SpeedController *launcherController;
+	AnalogChannel *sonar;
 
 };
 

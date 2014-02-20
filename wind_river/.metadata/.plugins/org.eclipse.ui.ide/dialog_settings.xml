@@ -4,4 +4,14 @@
 		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
 		<item value="true" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
 	</section>
+	<section name="NewWizardAction">
+		<item value="com.windriver.ide.ui.project.wizards.WRDownloadAbleModuleSampleProjectWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.team.cvs.ui.newWizards"/>
+			<item value="com.windriver.ide.Desktop"/>
+			<item value="org.eclipse.wst.jsdt.ui.java"/>
+			<item value="com.windriver.ide.VxWorks"/>
+			<item value="org.eclipse.ui.Examples"/>
+		</list>
+	</section>
 </section>
