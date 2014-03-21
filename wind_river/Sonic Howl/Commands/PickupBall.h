@@ -31,9 +31,17 @@ public:
 	virtual void Interrupted();
 private:
 	Joystick *j2;
+	Joystick *j3;
 	SpeedController *arm;
+	SpeedController *rollerArm;
 	Relay *rollers;
 	Gyro *gyro;
+	DigitalInput *lowerLimitSwitch;
+	DigitalInput *higherLimitSwitch;
+	DigitalInput *lowerLimitSwitch1;
+	DigitalInput *higherLimitSwitch1;
+	bool up;
+	bool down;	
 };
 
 #endif

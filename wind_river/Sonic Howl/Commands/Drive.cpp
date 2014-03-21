@@ -42,11 +42,26 @@ void Drive::Execute() {
 //   input.limit(1.0);
    // desired_out.correct(error, input, 0.1);
    // Controllers
+//   printf("left_front = %f\n", desired_out.getLeftFront());
+//   printf("left_back = %f\n", desired_out.getLeftBack());
+//   printf("right_front = %f\n", desired_out.getRightFront());
+//   printf("right_back = %f\n", desired_out.getRightBack());
+   
+   // Custom Drive
    left_front->Set(desired_out.getLeftFront());
    left_back->Set(desired_out.getLeftBack());
    right_front->Set(desired_out.getRightFront());
    right_back->Set(desired_out.getRightBack());
-	
+   
+   // Tank Drive
+//   left_front->Set(-drive_stick->GetY());
+//   left_back->Set(-drive_stick->GetY());
+//   right_front->Set(drive_stick->GetTwist());
+//   right_back->Set(drive_stick->GetTwist());
+//   printf("x = %f, y = %f, z = %f, twist = %f, thorttle = %f\n",drive_stick->GetX(), 
+//		   drive_stick->GetY(GenericHID::kLeftHand), drive_stick->GetZ(),
+//		   drive_stick->GetTwist(),
+//		   drive_stick->GetThrottle());
 }
 // Make this return true when this Command no longer needs to run execute()
 bool Drive::IsFinished() {

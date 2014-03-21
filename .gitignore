@@ -17,3 +17,7 @@ PPC603gnu
 *.snap
 *.pdom
 *.tree
+
+#Metadata
+.metadata
+.indexes

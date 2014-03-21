@@ -67,7 +67,7 @@ public:
       WheelVector rv = calcRotational(x, y, r);
       WheelVector lv = calcLateral(x, y, r);
 
-      WheelVector v = mv + rv + lv;
+      WheelVector v = mv + rv;
       v.normalize();
       return v;
    }

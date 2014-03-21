@@ -34,7 +34,6 @@ void Shoot::Execute() {
 	   launcherController->Set(0);
 	}
 	int distance = sonar->GetValue();
-	printf("distance = %d\n",distance);
 	SmartDashboard::PutNumber("Sonar",distance);
 }
 
