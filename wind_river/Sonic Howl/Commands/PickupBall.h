@@ -30,18 +30,18 @@ public:
 	virtual void End();
 	virtual void Interrupted();
 private:
-	Joystick *j2;
-	Joystick *j3;
-	SpeedController *arm;
-	SpeedController *rollerArm;
-	Relay *rollers;
-	Gyro *gyro;
-	DigitalInput *lowerLimitSwitch;
-	DigitalInput *higherLimitSwitch;
-	DigitalInput *lowerLimitSwitch1;
-	DigitalInput *higherLimitSwitch1;
-	bool up;
-	bool down;	
+	Joystick *_joystick2;
+	Joystick *_joystick3;
+	SpeedController *_arm;
+	SpeedController *_roller_arm;
+	Relay *_rollers;
+	Gyro *_gyro;
+	DigitalInput *_lower_limit_switch;
+	DigitalInput *_higher_limit_switch;
+	DigitalInput *_lower_limit_switch1;
+	DigitalInput *_higher_limit_switch1;
+	bool _up;
+	bool _down;	
 };
 
 #endif

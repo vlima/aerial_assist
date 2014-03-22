@@ -12,7 +12,6 @@
 #ifndef SHOOT_H
 #define SHOOT_H
 
-
 #include "Commands/Subsystem.h"
 #include "../Robot.h"
 
@@ -21,18 +20,37 @@
  *
  * @author ExampleAuthor
  */
-class Shoot: public Command {
+class Shoot: public Command
+{
 public:
-	Shoot();
-	virtual void Initialize();
-	virtual void Execute();
-	virtual bool IsFinished();
-	virtual void End();
-	virtual void Interrupted();
+   Shoot();
+   virtual void Initialize();
+   virtual void Execute();
+   virtual bool IsFinished();
+   virtual void End();
+   virtual void Interrupted();
+   
 private:
-	Joystick *j2;
-	SpeedController *launcherController;
-	AnalogChannel *sonar;
+   SpeedController *_arm;
+   Joystick *_joystick;
+   SpeedController *_shooting_wheels;
+   AnalogChannel * _sonar;
+   DigitalInput *_higher_limit_switch;
+   
+   int _shoot_delay_count;
+   double _shoot_arm_speed;
+   double _shoot_speed_low;
+   double _shoot_speed_med;
+   double _shoot_speed_high;
+   int _shoot_button_low;
+   int _shoot_button_med;
+   int _shoot_button_high;
+   
+   int _shoot_count;
+   double _shoot_speed;
+   std::string _shoot_speed_desc;
+   
+   void ShowShootingSpeed();
 
 };
 

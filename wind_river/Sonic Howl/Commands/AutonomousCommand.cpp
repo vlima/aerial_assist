@@ -36,23 +36,23 @@ void AutonomousCommand::Initialize()
 
    // Preferences
    Preferences *prefs = Preferences::GetInstance();
-   _positioning_count = prefs->GetDouble("auto-positioning-count", 12);
-   _positioning_speed = prefs->GetDouble("auto-positioning-speed", 0.5);
-   _extend_rollers_count = prefs->GetDouble("auto-extend-roller-count", 12);
+   _positioning_count = prefs->GetInt("auto-positioning-count", 4);
+   _positioning_speed = prefs->GetDouble("auto-positioning-speed", 0.3);
+   _extend_rollers_count = prefs->GetInt("auto-extend-roller-count", 4);
    _extend_rollers_speed = prefs->GetDouble("auto-extend-roller-speed", 0.5);
-   _extend_arm_count = prefs->GetDouble("auto-extend-arm-count", 12);
-   _extend_arm_speed = prefs->GetDouble("auto-extend-arm-speed", 0.5);
-   _pickup_move_count = prefs->GetDouble("auto-pickup-move-count", 12);
-   _pickup_move_speed = prefs->GetDouble("auto-pickup-move-speed", -0.5);
-   _pickup_roller_count = prefs->GetDouble("auto-pickup-roller-count", 20); // Make sure auto-pickup-roller-count >= auto-pickup-move-count !!!! 
-   _aim_move_count = prefs->GetDouble("auto-aim-move-count", 12);
+   _extend_arm_count = prefs->GetInt("auto-extend-arm-count", 4);
+   _extend_arm_speed = prefs->GetDouble("auto-extend-arm-speed", 0.75);
+   _pickup_move_count = prefs->GetInt("auto-pickup-move-count", 8);
+   _pickup_move_speed = prefs->GetDouble("auto-pickup-move-speed", -0.3);
+   _pickup_roller_count = prefs->GetInt("auto-pickup-roller-count", 12); // Make sure auto-pickup-roller-count >= auto-pickup-move-count !!!! 
+   _aim_move_count = prefs->GetInt("auto-aim-move-count", 4);
    _aim_move_speed = prefs->GetDouble("auto-aim-move-speed", 0.5);
-   _aim_arm_count = prefs->GetDouble("auto-aim-arm-count", 12);
+   _aim_arm_count = prefs->GetInt("auto-aim-arm-count", 4);
    _aim_arm_speed = prefs->GetDouble("auto-aim-arm-speed", -0.5);
-   _aim_roller_count = prefs->GetDouble("auto-aim-roller-count", 12);
-   _shoot_arm_count = prefs->GetDouble("auto-shoot-arm-count", 12);
+   _aim_roller_count = prefs->GetInt("auto-aim-roller-count", 2);
+   _shoot_arm_count = prefs->GetInt("auto-shoot-arm-count", 12);
    _shoot_arm_speed = prefs->GetDouble("auto-shoot-arm-speed", -0.5);
-   _shoot_delay_count = prefs->GetDouble("auto-shoot-delay-count", 12);
+   _shoot_delay_count = prefs->GetInt("auto-shoot-delay-count", 12);
    _shoot_speed = prefs->GetDouble("auto-shoot-speed", 0.5);
 
    // States
@@ -121,18 +121,35 @@ void AutonomousCommand::SetArm(double speed)
    }
 }
 
+void AutonomousCommand::SetWheels(double speed)
+{
+   if (speed > 0)
+   {
+      _desired_out = WheelVector::calc(speed, 0, 0);
+      _left_front->Set(_desired_out.getLeftFront());
+      _left_back->Set(_desired_out.getLeftBack());
+      _right_front->Set(_desired_out.getRightFront());
+      _right_back->Set(_desired_out.getRightBack());
+   }
+   else
+   {
+      _left_front->Set(0.0);
+      _left_back->Set(0.0);
+      _right_front->Set(0.0);
+      _right_back->Set(0.0);
+   }
+}
+
 void AutonomousCommand::PositioningState()
 {
    if (_count < _positioning_count)
    {
-      _left_front->Set(_positioning_speed);
-      _left_back->Set(_positioning_speed);
-      _right_front->Set(_positioning_speed);
-      _right_back->Set(_positioning_speed);
+      SetWheels(_positioning_speed);
       _count++;
    }
    else
    {
+      SetWheels(0);
       _count = 0;
       _state = STATE_EXTEND_ARMS;
    }
@@ -151,7 +168,7 @@ void AutonomousCommand::ExtendArmsState()
    }
 
    // Extend arm. Careful with the lower limit!
-   if (_count < _extend_arm_count && !_lower_limit_switch)
+   if (_count < _extend_arm_count && !_lower_limit_switch->Get())
    {
       _arm->Set(_extend_arm_speed);
       activity = true;
@@ -185,10 +202,7 @@ void AutonomousCommand::PickupBallState()
    // Moving towards the ball
    if (_count < _pickup_move_count)
    {
-      _left_front->Set(_pickup_move_speed);
-      _left_back->Set(_pickup_move_speed);
-      _right_front->Set(_pickup_move_speed);
-      _right_back->Set(_pickup_move_speed);
+      SetWheels(_pickup_move_speed);
       activity = true;
    }
 
@@ -200,6 +214,7 @@ void AutonomousCommand::PickupBallState()
    else
    {
       // Pickup done
+      SetWheels(0);
       _count = 0;
       _state = STATE_AIM;
    }
@@ -228,10 +243,7 @@ void AutonomousCommand::AimState()
    // Moving to shooting position
    if (_count < _aim_move_count)
    {
-      _left_front->Set(_aim_move_speed);
-      _left_back->Set(_aim_move_speed);
-      _right_front->Set(_aim_move_speed);
-      _right_back->Set(_aim_move_speed);
+      SetWheels(_aim_move_speed);
       activity = true;
    }
 
@@ -242,7 +254,8 @@ void AutonomousCommand::AimState()
    }
    else
    {
-      // Pickup done
+      // Aim done
+      SetWheels(0);
       _count = 0;
       _state = STATE_SHOOT;
    }
@@ -254,9 +267,9 @@ void AutonomousCommand::ShootState()
    _launcher->Set(_shoot_speed);
 
    // Retract arm. Careful with the higher limit!
-   if(_count < _shoot_arm_count)
+   if (_count < _shoot_arm_count)
    {
-      if (_count > _shoot_delay_count && !_higher_limit_switch)
+      if (_count > _shoot_delay_count && !_higher_limit_switch->Get())
       {
          _arm->Set(_shoot_arm_speed);
       }

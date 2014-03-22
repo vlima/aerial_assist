@@ -14,6 +14,7 @@
 
 #include "Commands/Subsystem.h"
 #include "../Robot.h"
+#include "WheelVector.h"
 
 /**
  *
@@ -33,47 +34,48 @@ public:
 private:
    enum AutoStates { STATE_POSITIONING, STATE_EXTEND_ARMS, STATE_PICKUP_BALL, STATE_AIM, STATE_SHOOT, STATE_WINING_THE_GAME };
    
-   // Forward
-   double _positioning_count;
-   double _positioning_speed;
-   // Extend
-   double _extend_rollers_count;
-   double _extend_rollers_speed;
-   double _extend_arm_count;
-   double _extend_arm_speed;
-   // Pickup
-   double _pickup_move_count;  
-   double _pickup_move_speed;
-   double _pickup_roller_count;
-   // Aim
-   double _aim_move_count;  
-   double _aim_move_speed;
-   double _aim_arm_count;  
-   double _aim_arm_speed;
-   double _aim_roller_count;
-   // Shoot
-   double _shoot_arm_count;  
-   double _shoot_arm_speed;
-   double _shoot_delay_count;
-   double _shoot_speed;
-
-   // States
-   AutoStates _state;
-   int _count;
-   
    SpeedController* _left_front;
    SpeedController* _left_back;
    SpeedController* _right_front;
    SpeedController* _right_back;
    SpeedController *_arm;
    SpeedController *_roller_arm;
-   Relay *_rollers;
    DigitalInput *_lower_limit_switch;
    DigitalInput *_higher_limit_switch;
    SpeedController *_launcher;
+   Relay *_rollers;
    Gyro *gyro;
+   
+   // Positioning
+   int _positioning_count;
+   double _positioning_speed;
+   // Extend
+   int _extend_rollers_count;
+   double _extend_rollers_speed;
+   int _extend_arm_count;
+   double _extend_arm_speed;
+   // Pickup
+   int _pickup_move_count;  
+   double _pickup_move_speed;
+   int _pickup_roller_count;
+   // Aim
+   int _aim_move_count;  
+   double _aim_move_speed;
+   int _aim_arm_count;  
+   double _aim_arm_speed;
+   int _aim_roller_count;
+   // Shoot
+   int _shoot_arm_count;
+   double _shoot_arm_speed;
+   int _shoot_delay_count;
+   double _shoot_speed;
+
+   WheelVector _desired_out;
+   AutoStates _state;
+   int _count;
 
    void SetArm(double speed);
+   void SetWheels(double speed);
    void PositioningState();
    void ExtendArmsState();
    void PickupBallState();

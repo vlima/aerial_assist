@@ -31,12 +31,12 @@ public:
 	virtual void End();
 	virtual void Interrupted();
 private:
-	Joystick *drive_stick;
-	WheelVector desired_out;
-	SpeedController* left_front;
-	SpeedController* left_back;
-	SpeedController* right_front;
-	SpeedController* right_back;
+	Joystick *_drive_stick;
+	WheelVector _desired_out;
+	SpeedController* _left_front;
+	SpeedController* _left_back;
+	SpeedController* _right_front;
+	SpeedController* _right_back;
 };
 
 #endif
